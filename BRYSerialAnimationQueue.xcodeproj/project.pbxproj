@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		93F5895E1863D269002EE358 /* libBRYSerialAnimationQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBRYSerialAnimationQueue.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F589611863D269002EE358 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		93F589651863D269002EE358 /* BRYSerialAnimationQueue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-Prefix.pch"; sourceTree = "<group>"; };
 		93F589661863D269002EE358 /* BRYSerialAnimationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRYSerialAnimationQueue.h; sourceTree = "<group>"; };
 		93F589681863D269002EE358 /* BRYSerialAnimationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYSerialAnimationQueue.m; sourceTree = "<group>"; };
 		93F5896F1863D269002EE358 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,17 +78,8 @@
 			children = (
 				93F589661863D269002EE358 /* BRYSerialAnimationQueue.h */,
 				93F589681863D269002EE358 /* BRYSerialAnimationQueue.m */,
-				93F589641863D269002EE358 /* Supporting Files */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		93F589641863D269002EE358 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				93F589651863D269002EE358 /* BRYSerialAnimationQueue-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +215,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/BRYSerialAnimationQueue.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BRYSerialAnimationQueue/BRYSerialAnimationQueue-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -237,7 +227,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/BRYSerialAnimationQueue.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BRYSerialAnimationQueue/BRYSerialAnimationQueue-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -263,6 +253,7 @@
 				93F589831863D269002EE358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
