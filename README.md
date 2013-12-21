@@ -1,5 +1,4 @@
-BRYSerialAnimationQueue
-=======================
+# BRYSerialAnimationQueue
 
 Perform UIView animations serially without blocking the main thread, using the same APIs you already know and love.
 
@@ -31,3 +30,6 @@ Can be replaced with something a little cleaner, like:
     } completion:^(BOOL finished) {
         [label removeFromSuperview];
     }];
+
+## License
+Available for use under the MIT license: [http://bryan.mit-license.org](http://bryan.mit-license.org)
