@@ -1,1 +1,1 @@
-pod 'BRYSerialAnimationQueue', :path => '..'
+pod 'BRYSerialAnimationQueue', :path => '../BRYSerialAnimationQueue.podspec'

@@ -1,0 +1,14 @@
+PODS:
+  - BRYSerialAnimationQueue (1.0.0)
+
+DEPENDENCIES:
+  - BRYSerialAnimationQueue (from `../BRYSerialAnimationQueue.podspec`)
+
+EXTERNAL SOURCES:
+  BRYSerialAnimationQueue:
+    :path: ../BRYSerialAnimationQueue.podspec
+
+SPEC CHECKSUMS:
+  BRYSerialAnimationQueue: e3b22b036a7a10e0ecb72d4faa91704d1406ddc8
+
+COCOAPODS: 0.28.0
