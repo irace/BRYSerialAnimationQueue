@@ -6,7 +6,7 @@ Perform UIView animations serially without blocking the main thread, using the s
 
 Via [CocoaPods](http://cocoapods.org), of course:
 
-    pod install BRYSerialAnimationQueue
+    pod "BRYSerialAnimationQueue"
 
 ## Why?
 
