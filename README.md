@@ -6,7 +6,9 @@ Perform UIView animations serially without blocking the main thread, using the s
 
 Via [CocoaPods](http://cocoapods.org), of course:
 
-    pod "BRYSerialAnimationQueue"
+``` ruby
+pod "BRYSerialAnimationQueue"
+```
 
 ## Why?
 
@@ -31,6 +33,8 @@ An added benefit is that nested animation code like this:
 Can be replaced with something a little cleaner, like:
 
 ```objective-c
+BRYSerialAnimationQueue *queue = [[BRYSerialAnimationQueue alloc] init];
+
 [queue animateWithDuration:duration animations:^{
     label.alpha = 1;
 }];
